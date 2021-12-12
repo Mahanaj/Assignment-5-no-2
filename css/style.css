@@ -1,0 +1,337 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    
+    padding: 20px 0;
+}
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+.header-content {
+    display: flex;
+    padding: 20px 0px;
+    justify-content: space-between;
+    }
+    .h-left, .logo, .menu{
+    display: flex;
+}
+.menu{
+    justify-content: center;
+}
+.menu ul li {
+    padding-top: 14px;
+    margin-left: 18px;
+    list-style: none;
+    display: inline-block;
+}
+menu ul li a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #292640;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+.btn {
+    height: 50px;
+    width: 200px;
+    background: #ff6162;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+    border: none;
+    color: #ffffff;
+    text-align:center;
+    display:inline-block;
+}
+.btn:hover{
+transform: translateX(-30px);
+transition: 0.4s;
+}
+.bannersection{
+    width: 100%;
+    padding: 80px 0px;
+  
+}
+.banner {
+    display: flex;
+    justify-content: flex-start;
+    padding: 8rem 0rem;
+    justify-content: space-between;
+}
+.b-left , .b-right{
+    padding: 50px 0px;
+  
+}
+.b-left h1{
+    font-family:'Open Sans', sans-serif;
+    font-size: 40px;
+    color: #292640;
+    
+}
+.b-left p {
+    
+    font-size: 16px;
+    line-height: 30px;
+    color: #a2a4a5;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    line-height: 30px;
+    font-family:'Open Sans', sans-serif;
+}
+.b-left i {
+   
+    font-size: 30px;
+    color: #d5d6d7;
+}
+.fa {
+    display: inline-block;
+}
+.demo {
+  
+    justify-content: center;
+    display: flex;
+}
+.demo-head {
+    text-align: center;
+    font-family:'Open Sans', sans-serif;
+}
+
+.demo-head h2{
+    font-family:'Open Sans', sans-serif;
+    font-size: 40px;
+    color: #292640;
+    margin: 6px 0;
+}
+.demo-head p {
+    text-align: center;
+    
+    color: #6e6e6e;
+    max-width: 620px;
+    margin: auto;
+    margin-bottom: 26px;
+}
+.menubar {
+    justify-content: center;
+    display: flex;
+
+}
+.menubar1 a p, .menubar2 a p, .menubar3 a p, .menubar4 a p {
+    margin-left: 180px;
+    color: #434749;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.menubar1 a, .menubar2 a, .menubar3 a, .menubar4 a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.menubar1 , .menubar2 , .menubar3 , .menubar4 {
+    flex-basis: 25%;
+
+}
+.menubar1 a img, .menubar2 a img, .menubar3 a img, .menubar4 a img{
+    width:300px;
+}
+
+
+.menubar img{
+    filter:grayscale(100%);
+}
+
+.menubar img:hover{
+    filter:grayscale(0%);
+}
+
+.servicepart {
+    margin: 70px 0px;
+    width: 100%;
+     font-family: 'Open Sans', sans-serif;
+
+}
+.servicepart-head {
+    text-align: center;
+      font-family: 'Open Sans', sans-serif;
+}
+.servicepart-head p {
+    font-size: 16px;
+    color: #9b9b9b;
+    font-weight: 300;
+}
+.servicepart-head h2{
+    font-family:'Open Sans', sans-serif;
+    font-size: 40px;
+    color: #292640;
+    margin: 6px 0;
+
+}
+.servicepart-box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    padding: 30px 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.servicepart-1, .servicepart-2, .servicepart-3,.servicepart-4,.servicepart-5,.servicepart-6 {
+    background-color: #f3f3f3;
+    margin: 10px;
+    text-align: center;
+    padding: 26px 12px;
+    border-radius: 8px;
+}
+.servicepart-1 i, .servicepart-2 i, .servicepart-3 i, .servicepart-4 i, .servicepart-5 i, .servicepart-6 i {
+    background-color: white;
+    padding: 12px;
+    border-radius: 100%;
+    font-size: 30px;
+    color: #ff5e5f;
+    text-align: center;
+}
+.servicepart-1 h3, .servicepart-2 h3, .servicepart-3 h3, .servicepart-4 h3, .servicepart-5 h3, .servicepart-6 h3{
+    font-size: 16px;
+    font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.servicepart-1 p, .servicepart-2 p, .servicepart-3 p, .servicepart-4 p, .servicepart-5 p, .servicepart-6 p{
+    font-size: 16px;
+    color: #9b9b9b;
+    font-weight: 300;
+    font-family:'Open Sans', sans-serif;
+}
+footer{
+    width: 100%;
+  
+   margin: auto;
+    text-align: center;
+}
+
+.footer-content{
+    display: flex;
+    text-align: center;
+    background-color:#00008B;
+    height: 59vh;
+    align-items: center;
+    justify-content: center;
+
+    margin: 6px 0;
+
+}
+.servicepart-box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    padding: 30px 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.servicepart-1, .servicepart-2, .servicepart-3,.servicepart-4,.servicepart-5,.servicepart-6 {
+    background-color: #f3f3f3;
+    margin: 10px;
+    text-align: center;
+    padding: 26px 12px;
+    border-radius: 8px;
+}
+.servicepart-1 i, .servicepart-2 i, .servicepart-3 i, .servicepart-4 i, .servicepart-5 i, .servicepart-6 i {
+    background-color: white;
+    padding: 12px;
+    border-radius: 100%;
+    font-size: 30px;
+    color: #ff5e5f;
+    text-align: center;
+}
+.servicepart-1 h3, .servicepart-2 h3, .servicepart-3 h3, .servicepart-4 h3, .servicepart-5 h3, .servicepart-6 h3{
+ 
+    font-size: 16px;
+    font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.servicepart-1 p, .servicepart-2 p, .servicepart-3 p, .servicepart-4 p, .servicepart-5 p, .servicepart-6 p{
+    font-size: 16px;
+    color: #9b9b9b;
+    font-weight: 300;
+    font-family:'Open Sans', sans-serif;
+}
+footer{
+    width: 100%;
+  
+   margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.footer-content {
+    text-align: center;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   
+.footer-content h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 56px;
+    color:#FFFFFF;
+    font-weight: bold;
+    width: 65%;
+    margin: 40px 200px;
+
+}
+.nav button{
+    height: 50px;
+    width: 200px;
+    background: #ff6162;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+    border: none;
+    color: #ffffff;
+    text-align:center;
+    display:inline-block;
+    text-align: center;
+    cursor: default;
+    margin-bottom: 20px;
+}
+.nav button a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+ .servicepart-1:hover{
+transform: translateX(-30px);
+transition: 0.4s;
+}
+.servicepart-2:hover{
+transform: translateY(-10px);
+transition: 0.4s;
+}
+.servicepart-3:hover{
+transform: translateX(-10px);
+transition: 0.4s;
+}
+.servicepart-4:hover{
+transform: translateY(-10px);
+transition: 0.4s;
+}
+.servicepart-5:hover{
+transform: translateX(-10px);
+transition: 0.4s;
+}
+.servicepart-6:hover{
+transform: translateY(-10px);
+transition: 0.4s;
+}
+button:hover{
+    background: green;
+}
